@@ -193,6 +193,48 @@ class _HomePageState extends State<HomePage> {
               },
             ),
           ),
+          Container(
+            child: Stack(
+              children: [
+                Positioned(
+                  left: MediaQuery.of(context).size.width/2+150,
+                  top: MediaQuery.of(context).size.height/2,
+                  child: ElevatedButton(
+                      onPressed: () {
+                        print("Market");
+                      },
+                      child: Text("Market")),
+                ),
+                Positioned(
+                  right: MediaQuery.of(context).size.width/2+100,
+                  top: MediaQuery.of(context).size.height/1.5,
+                  child: ElevatedButton(
+                      onPressed: () {
+                        print("Pool");
+                      },
+                      child: Text("Pool")),
+                ),
+                Positioned(
+                  left: MediaQuery.of(context).size.width/2+50,
+                  top: MediaQuery.of(context).size.height/3,
+                  child: ElevatedButton(
+                      onPressed: () {
+                        print("Farm");
+                      },
+                      child: Text("Farm")),
+                ),
+                Positioned(
+                  right: MediaQuery.of(context).size.width/2+100,
+                  bottom: MediaQuery.of(context).size.height/1.7,
+                  child: ElevatedButton(
+                      onPressed: () {
+                        print("Bank");
+                      },
+                      child: Text("Bank")),
+                )
+              ],
+            ),
+          )
         ],
       ),
     );

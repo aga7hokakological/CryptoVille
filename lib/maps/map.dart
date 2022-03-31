@@ -12,7 +12,7 @@ class CryptoVilleMap extends StatelessWidget {
     if (currentMap == "cryptoville") {
       return Container(
         alignment: Alignment(x, y),
-        child: Image.asset("../../assets/images/maps/new-map.png"),
+        child: Image.asset("../../assets/images/maps/atlas.png"),
         // width: MediaQuery.of(context).size.width * 0.75,
       );
     } else {
