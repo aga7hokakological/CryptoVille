@@ -1,0 +1,20 @@
+{ "columns":1,
+ "grid":
+    {
+     "height":102,
+     "orientation":"orthogonal",
+     "width":112
+    },
+ "image":"generic-rpg-vendor.png",
+ "imageheight":51,
+ "imagewidth":56,
+ "margin":0,
+ "name":"generic-rpg-vendor",
+ "spacing":0,
+ "tilecount":1,
+ "tiledversion":"1.6.0",
+ "tileheight":51,
+ "tilewidth":56,
+ "type":"tileset",
+ "version":"1.6"
+}

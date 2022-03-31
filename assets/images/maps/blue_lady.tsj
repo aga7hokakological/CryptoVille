@@ -1,0 +1,14 @@
+{ "columns":4,
+ "image":"..\/hero4.png",
+ "imageheight":256,
+ "imagewidth":128,
+ "margin":0,
+ "name":"blue_lady",
+ "spacing":0,
+ "tilecount":32,
+ "tiledversion":"1.8.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.8"
+}
