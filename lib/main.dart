@@ -5,7 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:multibiomegame/maps/map2.dart';
 import 'package:multibiomegame/player/sprite_sheet_hero.dart';
-import 'package:multibiomegame/npc/sprite_sheet_npc.dart';
+import 'package:multibiomegame/npc/sprite_sheet_sensei.dart';
 
 double tileSize = 16.0;
 void main() async {

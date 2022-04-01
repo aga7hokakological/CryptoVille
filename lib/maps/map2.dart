@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:multibiomegame/main.dart';
 import 'package:multibiomegame/player/game_player.dart';
 import 'package:multibiomegame/player/sprite_sheet_hero.dart';
-import 'package:multibiomegame/npc/npc.dart';
+import 'package:multibiomegame/npc/sensei.dart';
+
+import '../npc/guy.dart';
 
 class Map2 extends StatelessWidget {
   final ShowInEnum showInEnum;
@@ -26,7 +28,7 @@ class Map2 extends StatelessWidget {
         forceTileSize: Size(tileSize, tileSize),
         objectsBuilder: {
             'sensei': (properties) => Sensei(properties.position),
-            'hat-guy': (properties) => HatGuy(properties.position),
+            'guy': (properties) => HatGuy(properties.position),
           }
       ),
         // ..registerObject(
